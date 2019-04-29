@@ -18,9 +18,9 @@
       Writes data values from session storage in to the
       registration summary form
 */
-
+// Onload run the init function
 window.onload = init;
-
+// Retrieve data from sessionStorage.
 function init() {
       document.getElementById("regName").innerHTML = sessionStorage.getItem("name");
 
